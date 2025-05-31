@@ -43,11 +43,9 @@ Abre dos terminales en Kali:
 Reemplaza `eth0` con el nombre correcto de tu interfaz de red si es diferente (puedes verificarlo con `ip a`).
 
 ### 4. Observar el tráfico (opcional)
-Abre Wireshark en Kali y filtra por `ip.addr == 192.168.62.144`
-
-Desde Windows, navega por internet o haz `ping` a una página.
-
-Observa cómo Kali intercepta el tráfico.
+- Abre Wireshark en Kali y filtra por `ip.addr == 192.168.62.144`
+- Desde Windows, navega por internet o haz `ping` a una página.
+- Observa cómo Kali intercepta el tráfico.
 
 ### 5.Detener el ataque
 Detén los procesos de `arpspoof` con `Ctrl+C`
